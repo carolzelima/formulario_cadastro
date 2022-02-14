@@ -5,7 +5,7 @@
     $dbPassword = 'root';
     $dbName = 'cadastro-locadora';
     
-    $conexao = new mysqli($dbHost,'root','',$dbName);
+    $conexao = new mysqli($dbHost,'$dbUsername','$dbPassword',$dbName);
 
     //   if($conexao->connect_errno)
     //   {
